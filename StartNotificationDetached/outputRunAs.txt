@@ -1,0 +1,6 @@
+1-Aruba.Notifications.Api
+2-Aruba.Notifications.Consumer
+3-Aruba.Notifications.PostSend
+4-Aruba.Notifications.Api
+5-Aruba.Notifications.SmsPrefixRouting
+6-Aruba.Notifications.SmsProviderCallback

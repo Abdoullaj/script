@@ -1,0 +1,3 @@
+@ECHO OFF
+echo Running Microsoft SqlServer ManagementStudio by user : aruba\fall.abdoullaj ...
+runas /netonly /user:aruba\fall.abdoullaj "C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE\Ssms.exe"

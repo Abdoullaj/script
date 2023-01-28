@@ -1,0 +1,3 @@
+rem TITLE Aruba.Notifications.Api
+"C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe" "C:\git\devspa\notifications\build\notifications\src\Aruba.Notifications.Api\Aruba.Notifications.Api.csproj" /p:DeployOnBuild=true /p:TargetFramework=v4.7.2  /p:PublishProfile=C:\git\devspa\notifications\build\notifications\src\Aruba.Notifications.Api\Properties\PublishProfiles\FolderProfile.pubxml /p:RestorePackages=false /p:SkipPostSharp=true
+runas /netonly /user:aruba\fall.abdoullaj "C:\Program Files\IIS Express\iisexpress /path:C:\git\devspa\notifications\build\notifications\src\Aruba.Notifications.Api\bin\Publish /port:44338"

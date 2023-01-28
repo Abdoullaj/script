@@ -1,0 +1,3 @@
+@ECHO OFF
+echo Running DataToMongoMigrator by user : aruba\fall.abdoullaj ...
+runas /netonly /user:aruba\fall.abdoullaj ""C:\Users\lay\Downloads\Aruba.Notifications.DataToMongoMigrator\Aruba.Notifications.DataToMongoMigrator.exe""

@@ -1,0 +1,11 @@
+The file "BuildAll" will compile/publish the current version of the source code in release mode
+
+helper for batch file in order to build, release and run.
+Just call "Build&Publish.bat" and pass the variable as arguments.
+
+Example:
+TITLE Aruba.Notifications.SmsCallbackWriter
+set folderName=C:\git\devspa\notifications\nv4\build\Aruba.Notifications.SmsCallbackWriter\src\Aruba.Notifications.SmsCallbackWriter.Api
+set projectName=Aruba.Notifications.SmsCallbackWriter.Api.csproj
+set port=43731
+CALL "Build&Publish.bat" %folderName% %projectName% %port%
