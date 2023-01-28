@@ -1,9 +1,8 @@
-TITLE Aruba.Notifications.SmsPrefixRouting
-set folderName=C:\git\devspa\notifications\nv4\build\Aruba.Notifications.SmsPrefixRouting\src\Aruba.Notifications.SmsPrefixRouting.Api
-set projectName=Aruba.Notifications.SmsPrefixRouting.Api.csproj
+set project=SmsPrefixRouting
 set port=19151
+set folderName=C:\git\devspa\notifications\nv4\build\Aruba.Notifications.%project%\src\Aruba.Notifications.%project%.Api
+set projectName=Aruba.Notifications.%project%.Api.csproj
 CALL "Build&Publish.bat" %folderName% %projectName% %port%
-
 
 
 REM dotnet restore "C:\git\devspa\notifications\nv4\build\Aruba.Notifications.SmsPrefixRouting\src\Aruba.Notifications.SmsPrefixRouting.Api\Aruba.Notifications.SmsPrefixRouting.Api.csproj"
